@@ -5,10 +5,13 @@
         "es6": true,
         "node": true
     },
-    "extends": "eslint:recommended",
+    "extends": "standard",
     "globals": {
-        "Atomics": "readonly",
-        "SharedArrayBuffer": "readonly"
+        "describe": true,
+        "beforeEach": true,
+        "afterEach": true,
+        "after": true,
+        "it": true
     },
     "parserOptions": {
         "ecmaVersion": 2018
